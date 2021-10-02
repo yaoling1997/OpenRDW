@@ -189,7 +189,13 @@
    Copyright [2021] [Beihang University]
    Authors: Yi-Jun Li, Miao Wang, Frank Steinicke, Qinping Zhao
    Paper: OpenRDW: A Redirected Walking Library and Benchmark with Multi-User, Learning-based Functionalities and State-of-the-art Algorithms
-   Citation: Yi-Jun Li, Miao Wang, Frank Steinicke, Qinping Zhao. OpenRDW: A Redirected Walking Library and Benchmark with Multi-User, Learning-based Functionalities and State-of-the-art Algorithms. 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2021.
+   Bibtex Citation: @inproceedings{Li_2021_OpenRDW,
+      title={OpenRDW: A Redirected Walking Library and Benchmark with Multi-User, Learning-based Functionalities and State-of-the-art Algorithms},
+      author={Yi-Jun Li, Miao Wang, Frank Steinicke, Qinping Zhao},
+      booktitle={2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},      
+      year={2021},
+      organization={IEEE}
+    }
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
