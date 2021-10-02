@@ -1,0 +1,530 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.Timeline.Editor.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:E:/UnityProjects/git_RDWToolkit/RDWToolkit/Library/PackageCache/com.unity.barracuda@1.2.1-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll
+/reference:E:/UnityProjects/git_RDWToolkit/RDWToolkit/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll
+/reference:E:/UnityProjects/git_RDWToolkit/RDWToolkit/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_4_8
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\ClipsActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\ItemAction.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\MarkerActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\Menus\MenuItemActionBase.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\Menus\TimelineContextMenu.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\TimelineActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Actions\TrackActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Activation\ActivationTrackEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Activation\ActivationTrackInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Analytics\TimelineAnalytics.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\AnimationClipActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\AnimationClipCurveCache.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\AnimationOffsetMenu.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\AnimationPlayableAssetEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\AnimationTrackActions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\BindingSelector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\BindingTreeViewDataSource.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\BindingTreeViewDataSourceGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\ClipCurveEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\CurveDataSource.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\CurvesProxy.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Animation\TimelineAnimationUtilities.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Attributes\ActiveInModeAttribute.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Attributes\MenuEntryAttribute.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Attributes\ShortcutAttribute.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Audio\AudioClipPropertiesDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Audio\AudioPlayableAssetEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Audio\AudioPlayableAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Audio\AudioTrackInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\ControlTrack\ControlPlayableAssetEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CurveEditUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CustomEditors\ClipEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CustomEditors\CustomTimelineEditorCache.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CustomEditors\MarkerEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CustomEditors\MarkerTrackEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\CustomEditors\TrackEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\DirectorNamedColor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\DirectorStyles.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Extensions\AnimatedParameterExtensions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Extensions\AnimationTrackExtensions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Extensions\TrackExtensions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\ClipItem.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\ITimelineItem.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\ItemsGroup.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\ItemsPerTrack.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\ItemsUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Items\MarkerItem.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\AddDelete\AddDeleteItemModeMix.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\AddDelete\AddDeleteItemModeReplace.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\AddDelete\AddDeleteItemModeRipple.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\AddDelete\IAddDeleteItemMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Cursors\TimelineCursors.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\EditMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\EditModeInputHandler.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\IMoveItemMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\MoveItemHandler.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\MoveItemModeMix.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\MoveItemModeReplace.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\MoveItemModeRipple.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Move\MovingItems.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\EaseClip.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\Jog.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\MarkerHeaderContextMenu.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\RectangleSelect.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\RectangleTool.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\RectangleZoom.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\SelectAndMoveItem.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\TrackZoom.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Sequence\TrimClip.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\TimeAreaAutoPanner.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\TimeIndicator.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\TimelineClipGroup.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Trim\ITrimItemMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Trim\TrimItemModeMix.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Trim\TrimItemModeReplace.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Trim\TrimItemModeRipple.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\EditModeGUIUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\EditModeMixUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\EditModeReplaceUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\EditModeRippleUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\EditModeUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\ManipulatorsUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Manipulators\Utils\PlacementValidity.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\MenuOrder.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Playables\ControlPlayableInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Properties\AssemblyInfo.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\AnimationTrackRecorder.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\TimelineRecording.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\TimelineRecordingContextualResponder.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\TimelineRecording_Monobehaviour.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\TimelineRecording_PlayableAsset.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Recording\TrackAssetRecordingExtensions.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Shortcuts.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalEmitterEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalEmitterInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalEventDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalManager.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalReceiverHeader.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalReceiverInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\SignalUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\Styles.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\TreeView\SignalListFactory.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\TreeView\SignalReceiverItem.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Signals\TreeView\SignalReceiverTreeView.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\State\ISequenceState.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\State\SequenceHierarchy.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\State\SequencePath.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\State\SequenceState.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\State\WindowState.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\TimelineEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\TimelineHelpers.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\TimelineSelection.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\TimelineUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Tooltip.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Trackhead.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\UnityEditorInternals.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\AnimatedParameterCache.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\AnimatedParameterUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\BindingUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\BreadcrumbDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\ClipModifier.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\Clipboard.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\ControlPlayableUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\CustomTrackDrawerAttribute.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\DisplayNameHelper.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\GUIColorOverride.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\GUIGroupScope.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\GUIMixedValueScope.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\GUIViewportScope.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\Graphics.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\KeyTraverser.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\MarkerModifier.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\ObjectExtension.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\ObjectReferenceField.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\PropertyCollector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\Range.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\SequenceSelectorNameFormater.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\SpacePartitioner.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\StyleManager.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\StyleNormalColorOverride.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\TimeReferenceUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\TimelineKeyboardNavigation.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\TrackModifier.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\TrackResourceCache.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Utilities\TypeUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimeReferenceMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineActiveMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineAssetEditionMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineDisabledMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineInactiveMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\Modes\TimelineReadOnlyMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\PlaybackScroller.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineMarkerHeaderGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindowTimeControl.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_ActiveTimeline.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_Breadcrumbs.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_Duration.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_EditorCallbacks.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_Gui.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_HeaderGui.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_Manipulators.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_PlayRange.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_PlayableLookup.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_PreviewPlayMode.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_Selection.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_StateChange.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_TimeArea.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_TimeCursor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\TimelineWindow_TrackGui.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\ViewModel\TimelineAssetViewModel.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\ViewModel\TimelineWindowViewPrefs.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\Window\WindowConstants.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\AnimationPlayableAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\AnimationTrackInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\BasicAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\BuiltInCurvePresets.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\ClipInspector\ClipInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\ClipInspector\ClipInspectorCurveEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\ClipInspector\ClipInspectorSelectionInfo.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\CurvesOwner\CurvesOwnerInspectorHelper.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\CurvesOwner\ICurvesOwnerInspectorWrapper.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\DirectorNamedColorInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\EditorClip.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\EditorClipFactory.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\GroupTrackInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\MarkerInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\TimeFieldDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\TimelineAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\TimelineInspectorUtility.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\inspectors\TrackAssetInspector.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\AnimationTrackKeyDataSource.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Control.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\AnimationTrackDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\ClipDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\InfiniteTrackDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\Layers\ClipsLayer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\Layers\ItemsLayer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\Layers\MarkersLayer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\TrackDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Drawers\TrackItemsDrawer.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\IPropertyKeyDataSource.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\IRowGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\InlineCurveEditor.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ItemGui\ISelectable.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ItemGui\TimelineClipGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ItemGui\TimelineItemGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ItemGui\TimelineMarkerClusterGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ItemGui\TimelineMarkerGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ManipulationsClips.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ManipulationsTimeline.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\ManipulationsTracks.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Manipulator.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\PickerUtils.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Snapping\IAttractable.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Snapping\ISnappable.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\Snapping\SnapEngine.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineClipHandle.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineClipUnion.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineDataSource.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineDragging.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineGroupGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineTrackBaseGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineTrackErrorGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineTrackGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineTreeView.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TimelineTreeViewGUI.cs
+E:\UnityProjects\git_RDWToolkit\RDWToolkit\Library\PackageCache\com.unity.timeline@1.2.17\Editor\treeview\TrackPropertyCurvesDataSource.cs

@@ -1,0 +1,14 @@
+trackingSpaceChoice = square
+obstacletype = 0
+squarewidth = 10
+newUser
+redirector = s2c
+resetter = twooneturn
+pathseedChoice = longwalk
+newUser
+pathseedChoice = explorationsmall
+newUser
+pathseedChoice = zigzag
+newUser
+pathseedChoice = office
+end
