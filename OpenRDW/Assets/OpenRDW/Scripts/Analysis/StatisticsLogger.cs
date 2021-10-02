@@ -9,7 +9,7 @@ public class StatisticsLogger : MonoBehaviour {
     private static readonly int MaxResetCount = 1000;//reset exceeds this value will make data invalid
     
     private GlobalConfiguration globalConfiguration;
-
+    [Tooltip("If log sample variables")]
     public bool logSampleVariables = false;
 
     public class ResultOfTrial {
@@ -314,11 +314,6 @@ public class StatisticsLogger : MonoBehaviour {
             er["virtual_position_average"] = GetAverage(us.userVirtualPositionSamples).ToString();
             er["distance_to_boundary_average"] = GetAverage(us.distanceToNearestBoundarySamples).ToString();
             er["distance_to_center_average"] = GetAverage(us.distanceToCenterSamples).ToString();
-            //er["normalized_distance_to_boundary_average"] = GetTrackingAreaNormalizedValue(GetAverage(us.distanceToNearestBoundarySamples)).ToString();
-            //er["normalized_distance_to_center_average"] = GetTrackingAreaNormalizedValue(GetAverage(us.distanceToCenterSamples)).ToString();
-            er["normalized_distance_to_boundary_average"] = 0.ToString();
-            er["normalized_distance_to_center_average"] = 0.ToString();
-
 
             er["experiment_duration"] = (us.experimentEndingTime - us.experimentBeginningTime).ToString();
             er["execute_duration"] = (((double)us.executeEndingTime - us.executeBeginningTime)/ 1e7).ToString();
@@ -501,7 +496,7 @@ public class StatisticsLogger : MonoBehaviour {
 
             us.userRealPositionSamplesBuffer.Add(Utilities.FlattenedPos2D(rm.currPosReal));
             us.userVirtualPositionSamplesBuffer.Add(Utilities.FlattenedPos2D(rm.currPos));
-            //us.distanceToNearestBoundarySamplesBuffer.Add(generalManager.GetDeltaTime() * rm.resetter.GetDistanceToNearestBoundary());
+            us.distanceToNearestBoundarySamplesBuffer.Add(Utilities.GetNearestDistToObstacleAndTrackingSpace(globalConfiguration.obstaclePolygons, globalConfiguration.trackingSpacePoints, rm.currPosReal));
             us.distanceToCenterSamplesBuffer.Add(rm.currPosReal.magnitude);
         }
     }

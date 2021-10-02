@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3C123EF3-0ABC-F018-B398-7721478FB5E0}</ProjectGuid>
+    <ProjectGuid>{BBD71DE0-7485-F850-7324-E46C1AF17679}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Editor</AssemblyName>
@@ -254,6 +254,9 @@
     <Reference Include="UnityEditor">
       <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -270,22 +273,22 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/PackageCache/com.unity.barracuda@1.3.1-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/PackageCache/com.unity.barracuda@1.3.1-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -642,21 +645,21 @@
       <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>E:/Labwork/RDWT/RDWToolkit - UploadVersion/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{3954205F-A4B0-A0DF-23A0-AF3F548C66E0}</Project>
+      <Project>{27FEE68D-E37C-2EFE-4800-DB40B3F36156}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>

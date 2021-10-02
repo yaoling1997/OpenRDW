@@ -709,9 +709,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementController: 1
-  runInBackstage: 1
+  runInBackstage: 0
   loadFromTxt: 1
-  multiCmdFiles: 1
+  multiCmdFiles: 0
   useSimulationTime: 0
   overviewModeEveryTrial: 0
   firstPersonView: 0
