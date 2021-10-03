@@ -10,6 +10,8 @@ The OpenRDW library provides APIs to access the attributes of scenes, to customi
 
 The OpenRDW benchmark includes multiple testing conditions, such as walking in size varied tracking spaces or shape varied tracking spaces with obstacles, multiple user walking, etc. It also contains several classic and state-of-the-art RDW techniques, which include the above mentioned functionalities. Also, procedurally generated paths and walking paths collected from user experiments are provided for a comprehensive evaluation. 
 
+You can get more information from [OpenRDW wiki](https://github.com/yaoling1997/OpenRDW/wiki/Introduction).
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/yaoling1997/OpenRDW/main/Figures/preview.gif" />
 </p>
