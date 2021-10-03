@@ -278,20 +278,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/PackageCache/com.unity.barracuda@1.3.1-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>E:/Labwork/RDWT/git_OpenRDW/OpenRDW/OpenRDW/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Program Files/Unity/Editor/2019.4.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

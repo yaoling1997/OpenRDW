@@ -723,7 +723,7 @@ MonoBehaviour:
   RESET_TRIGGER_BUFFER: 0.5
   simulatedTime: 0
   targetFPS: 50
-  trialsForRepeating: 2
+  trialsForRepeating: 1
   experimentIterator: 0
   experimentSetupsListIterator: 0
   experimentInProgress: 0
