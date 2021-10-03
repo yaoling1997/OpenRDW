@@ -713,7 +713,7 @@ MonoBehaviour:
   loadFromTxt: 1
   multiCmdFiles: 0
   useSimulationTime: 0
-  overviewModeEveryTrial: 0
+  overviewModeEveryTrial: 1
   firstPersonView: 0
   MAX_TRANS_GAIN: 0.26
   MIN_TRANS_GAIN: -0.14
