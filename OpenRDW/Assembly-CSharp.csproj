@@ -96,10 +96,10 @@
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\SteerToRedirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\ThomasAPF_Redirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\ZigZagRedirector.cs" />
-    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Reseters\APF_Resetter.cs" />
-    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Reseters\NullResetter.cs" />
-    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Reseters\Resetter.cs" />
-    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Reseters\TwoOneTurnResetter.cs" />
+    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Resetters\APF_Resetter.cs" />
+    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Resetters\NullResetter.cs" />
+    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Resetters\Resetter.cs" />
+    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Resetters\TwoOneTurnResetter.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
