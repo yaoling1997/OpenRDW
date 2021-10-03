@@ -90,6 +90,7 @@
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\DynamicAPF_Redirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\MessingerAPF_Redirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\NullRedirector.cs" />
+    <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\PassiveHapticAPF_Redirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\Redirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\S2CRedirector.cs" />
     <Compile Include="Assets\OpenRDW\Scripts\Redirection\Redirectors\S2ORedirector.cs" />

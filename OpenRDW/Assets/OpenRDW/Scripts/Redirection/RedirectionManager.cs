@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 public class RedirectionManager : MonoBehaviour {
-    public static readonly float MaxSamePosTime = 50;//the max time the avatar can stand on the same position, exceeds this value will make data invalid (stuck in one place)
+    public static readonly float MaxSamePosTime = 50;//the max time(in seconds) the avatar can stand on the same position, exceeds this value will make data invalid (stuck in one place)
 
-    public enum RedirectorChoice { None, S2C, S2O, Zigzag, ThomasAPF, MessingerAPF, DynamicAPF, DeepLearning };
+    public enum RedirectorChoice { None, S2C, S2O, Zigzag, ThomasAPF, MessingerAPF, DynamicAPF, DeepLearning, PassiveHapticAPF };
     public enum ResetterChoice { None, TwoOneTurn, APF };
 
 
@@ -143,6 +143,8 @@ public class RedirectionManager : MonoBehaviour {
                 return typeof(DynamicAPF_Redirector);
             case RedirectorChoice.DeepLearning:
                 return typeof(DeepLearning_Redirector);
+            case RedirectorChoice.PassiveHapticAPF:
+                return typeof(PassiveHapticAPF_Redirector);
         }
         return typeof(NullRedirector);
     }
@@ -164,6 +166,8 @@ public class RedirectionManager : MonoBehaviour {
             return RedirectorChoice.DynamicAPF;
         else if (redirector.Equals(typeof(DeepLearning_Redirector)))
             return RedirectorChoice.DeepLearning;
+        else if (redirector.Equals(typeof(PassiveHapticAPF_Redirector)))
+            return RedirectorChoice.PassiveHapticAPF;
         return RedirectorChoice.None;
     }
     public static System.Type DecodeRedirector(string s)
@@ -186,6 +190,8 @@ public class RedirectionManager : MonoBehaviour {
                 return typeof(DynamicAPF_Redirector);
             case "deeplearning":
                 return typeof(DeepLearning_Redirector);
+            case "passivehapticapf":
+                return typeof(PassiveHapticAPF_Redirector);
             default:
                 return typeof(NullRedirector);
         }

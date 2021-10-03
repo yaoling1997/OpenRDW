@@ -50,8 +50,6 @@ public class StatisticsLogger : MonoBehaviour {
     public int imageResolution;
     [Tooltip("Side length represent the real world meters")]
     public int realSideLength;
-    [Tooltip("Side length represent the virtual world meters")]
-    public int virtualSideLength;
     [Tooltip("Border thickness drawn in the image")]
     public int borderThickness;
     [Tooltip("Path thickness drawn in the image")]

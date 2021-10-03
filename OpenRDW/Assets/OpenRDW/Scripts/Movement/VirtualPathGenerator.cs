@@ -44,7 +44,7 @@ public class VirtualPathGenerator
             this.angleDistribution = angleDistribution;
             this.waypointCount = waypointCount;
         }
-        public static PathSeed GetPathSeedOfficeBuilding()
+        public static PathSeed GetPathSeed90Turn()
         {
             SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 2, 8);
             SamplingDistribution angleSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 90, 90, AlternationType.Random);
@@ -52,7 +52,7 @@ public class VirtualPathGenerator
             return new PathSeed(distanceSamplingDistribution, angleSamplingDistribution, waypointCount);
         }
 
-        public static PathSeed GetPathSeedZigzag()
+        public static PathSeed GetPathSeedSawtooth()
         {
             SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, zigLength, zigLength);
             SamplingDistribution angleSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, zagAngle, zagAngle, AlternationType.Constant);
@@ -60,24 +60,16 @@ public class VirtualPathGenerator
             return new PathSeed(distanceSamplingDistribution, angleSamplingDistribution, waypointCount);
         }
 
-        public static PathSeed GetPathSeedExplorationSmall()
+        public static PathSeed GetPathSeedRandomTurn()
         {            
-            SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 2, 6);
+            SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 2, 8);
 
             SamplingDistribution angleSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, -180, 180);
             int waypointCount = 50;
             return new PathSeed(distanceSamplingDistribution, angleSamplingDistribution, waypointCount);
         }
 
-        public static PathSeed GetPathSeedExplorationLarge()
-        {
-            SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 8, 12);
-            SamplingDistribution angleSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, -180, 180);
-            int waypointCount = 20;
-            return new PathSeed(distanceSamplingDistribution, angleSamplingDistribution, waypointCount);
-        }
-
-        public static PathSeed GetPathSeedLongCorridor()
+        public static PathSeed GetPathSeedStraightLine()
         {
             SamplingDistribution distanceSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 20, 20);            
             SamplingDistribution angleSamplingDistribution = new SamplingDistribution(DistributionType.Uniform, 0, 0);

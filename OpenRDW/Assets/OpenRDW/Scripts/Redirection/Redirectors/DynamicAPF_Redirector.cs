@@ -313,8 +313,7 @@ public class DynamicAPF_Redirector : APF_Redirector
         var currDir = Utilities.FlattenedDir2D(redirectionManager.currDirReal);
         var prevDir = Utilities.FlattenedDir2D(redirectionManager.prevDirReal);
         float g_c = 0;//more rotation calculated by curvature gain
-        float g_r = 0;//more rotation calculated by rotation gain
-        float g_t = 0;//more translation calculated by translation gain
+        float g_r = 0;//more rotation calculated by rotation gain        
 
         //max rotation thresholds
         var deltaTime = redirectionManager.GetDeltaTime();

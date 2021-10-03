@@ -8,8 +8,7 @@ using System.IO;
 //Store common parameters 
 public class GlobalConfiguration : MonoBehaviour
 {
-    //public const float generatedPathLength = 400;//procedurally generated path length
-    public const float generatedPathLength = 20;//procedurally generated path length
+    public const float generatedPathLength = 400;//procedurally generated path length    
 
     private static readonly float pathCircleRadius = generatedPathLength / 2 / Mathf.PI;
     private static readonly int pathCircleWaypointNum = 20;
@@ -22,7 +21,7 @@ public class GlobalConfiguration : MonoBehaviour
     //Path mode
     //FilePath: constant walking speed
     //RealUserPath: real walking speed according to sample points    
-    public enum PathSeedChoice { Office, ExplorationSmall, ExplorationLarge, LongWalk, ZigZag, Circle, Circle8, FilePath, RealUserPath };
+    public enum PathSeedChoice { _90Turn, RandomTurn, StraightLine, Sawtooth, Circle, FigureEight, FilePath, RealUserPath };
 
     public static float obstacleParentHeight = 0.0018f;
     public static float bufferParentHeight = 0.0016f;
@@ -341,13 +340,12 @@ public class GlobalConfiguration : MonoBehaviour
         //pre-defined procedurally generated paths, ensure the same in every trial
         float sumOfDistances, sumOfRotations;
         pathSeedChoiceToWaypoints = new Dictionary<PathSeedChoice, List<Vector2>>();
-        pathSeedChoiceToWaypoints[PathSeedChoice.Office] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedOfficeBuilding(),generatedPathLength, out sumOfDistances, out sumOfRotations);
-        pathSeedChoiceToWaypoints[PathSeedChoice.ExplorationSmall] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedExplorationSmall(), generatedPathLength, out sumOfDistances, out sumOfRotations);
-        pathSeedChoiceToWaypoints[PathSeedChoice.ExplorationLarge] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedExplorationLarge(), generatedPathLength, out sumOfDistances, out sumOfRotations);
-        pathSeedChoiceToWaypoints[PathSeedChoice.LongWalk] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedLongCorridor(), generatedPathLength, out sumOfDistances, out sumOfRotations);
-        pathSeedChoiceToWaypoints[PathSeedChoice.ZigZag] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedZigzag(), generatedPathLength, out sumOfDistances, out sumOfRotations);
+        pathSeedChoiceToWaypoints[PathSeedChoice._90Turn] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeed90Turn(),generatedPathLength, out sumOfDistances, out sumOfRotations);
+        pathSeedChoiceToWaypoints[PathSeedChoice.RandomTurn] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedRandomTurn(), generatedPathLength, out sumOfDistances, out sumOfRotations);        
+        pathSeedChoiceToWaypoints[PathSeedChoice.StraightLine] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedStraightLine(), generatedPathLength, out sumOfDistances, out sumOfRotations);
+        pathSeedChoiceToWaypoints[PathSeedChoice.Sawtooth] = VirtualPathGenerator.GenerateInitialPathByPathSeed(PathSeed.GetPathSeedSawtooth(), generatedPathLength, out sumOfDistances, out sumOfRotations);
         pathSeedChoiceToWaypoints[PathSeedChoice.Circle] = VirtualPathGenerator.GenerateCirclePath(pathCircleRadius, pathCircleWaypointNum, out sumOfDistances, out sumOfRotations);
-        pathSeedChoiceToWaypoints[PathSeedChoice.Circle8] = VirtualPathGenerator.GenerateCirclePath(pathCircleRadius / 2, pathCircleWaypointNum, out sumOfDistances, out sumOfRotations, true);        
+        pathSeedChoiceToWaypoints[PathSeedChoice.FigureEight] = VirtualPathGenerator.GenerateCirclePath(pathCircleRadius / 2, pathCircleWaypointNum, out sumOfDistances, out sumOfRotations, true);        
 
         foreach (var ps in (PathSeedChoice[])System.Enum.GetValues(typeof(PathSeedChoice)))
         {
@@ -757,26 +755,24 @@ public class GlobalConfiguration : MonoBehaviour
     {
         switch (s.ToLower())
         {
-            case "office":
-                return PathSeedChoice.Office;
-            case "explorationsmall":
-                return PathSeedChoice.ExplorationSmall;
-            case "explorationlarge":
-                return PathSeedChoice.ExplorationLarge;
-            case "longwalk":
-                return PathSeedChoice.LongWalk;
-            case "zigzag":
-                return PathSeedChoice.ZigZag;
+            case "90turn":
+                return PathSeedChoice._90Turn;
+            case "randomturn":
+                return PathSeedChoice.RandomTurn;
+            case "straightline":
+                return PathSeedChoice.StraightLine;
+            case "sawtooth":
+                return PathSeedChoice.Sawtooth;
             case "circle":
                 return PathSeedChoice.Circle;
-            case "circle8":
-                return PathSeedChoice.Circle8;
+            case "figureeight":
+                return PathSeedChoice.FigureEight;
             case "filepath":
                 return PathSeedChoice.FilePath;
             case "realuserpath":
                 return PathSeedChoice.RealUserPath;
             default:
-                return PathSeedChoice.ZigZag;
+                return PathSeedChoice.Sawtooth;
         }
     }
 
@@ -809,7 +805,7 @@ public class GlobalConfiguration : MonoBehaviour
     private void GenerateAllExperimentSetupsByCommand(out List<ExperimentSetup> experimentSetups, string[] commands)
     {
         experimentSetups = new List<ExperimentSetup>();        
-        AvatarInfo avatar = new AvatarInfo(typeof(NullRedirector), typeof(NullResetter), PathSeedChoice.LongWalk, null, null, null, null, null);
+        AvatarInfo avatar = new AvatarInfo(typeof(NullRedirector), typeof(NullResetter), PathSeedChoice.StraightLine, null, null, null, null, null);
         var avatarList = new List<AvatarInfo>();
         trackingSpaceChoice = TrackingSpaceChoice.Rectangle;
         obstacleType = 0;
@@ -853,7 +849,7 @@ public class GlobalConfiguration : MonoBehaviour
                 case "waypointsfilepath":
                     avatar.waypointsFilePath = split[2];
                     break;
-                case "sampleintervalsfilepath":
+                case "samplingintervalsfilepath":
                     avatar.samplingIntervalsFilePath = split[2];
                     break;
                 case "trackingspacechoice":

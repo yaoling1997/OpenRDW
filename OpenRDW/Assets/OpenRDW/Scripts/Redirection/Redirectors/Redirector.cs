@@ -4,11 +4,19 @@ using System.Collections;
 public abstract class Redirector : MonoBehaviour
 {
     [HideInInspector]
+    public GlobalConfiguration globalConfiguration;
+
+    [HideInInspector]
     public RedirectionManager redirectionManager;
+
+    [HideInInspector]
+    public MovementManager movementManager;
 
     void Awake()
     {
+        globalConfiguration = GetComponentInParent<GlobalConfiguration>();
         redirectionManager = GetComponent<RedirectionManager>();
+        movementManager = GetComponent<MovementManager>();
     }
 
     /// <summary>

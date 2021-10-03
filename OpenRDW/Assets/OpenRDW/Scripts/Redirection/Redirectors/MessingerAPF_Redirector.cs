@@ -126,8 +126,7 @@ public class MessingerAPF_Redirector : APF_Redirector
         var currDir = Utilities.FlattenedDir2D(redirectionManager.currDirReal);
         var prevDir = Utilities.FlattenedDir2D(redirectionManager.prevDirReal);
         float g_c = 0;//curvature
-        float g_r = 0;//rotation
-        float g_t = 0;//translation
+        float g_r = 0;//rotation        
 
         //can not exceed
         var deltaTime = redirectionManager.GetDeltaTime();
