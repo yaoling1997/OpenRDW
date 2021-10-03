@@ -774,7 +774,7 @@ MonoBehaviour:
   realTrailColor: {r: 1, g: 0, b: 0, a: 0}
   virtualTrailColor: {r: 0, g: 0, b: 1, a: 0}
   exportImage: 0
-  exportVideo: 0
+  exportVideo: 1
   statisticsLogger: {fileID: 0}
   passiveHaptics: 0
   physicalTargetTransforms:
