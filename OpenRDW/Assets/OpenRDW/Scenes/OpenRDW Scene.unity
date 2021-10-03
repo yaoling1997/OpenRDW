@@ -708,7 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d97f4f04aa3aa6e4abc407f0d0d45fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementController: 1
+  movementController: 0
   runInBackstage: 0
   loadFromTxt: 0
   multiCmdFiles: 0
@@ -731,7 +731,7 @@ MonoBehaviour:
   startTimeOfProgram: 
   negArrow: {fileID: 717936904266117204, guid: f68566b61c5ebc74784982a22ecef585, type: 3}
   readyToStart: 0
-  avatarNum: 2
+  avatarNum: 1
   avatarColors:
   - {r: 0.9921569, g: 0.48235297, b: 0, a: 1}
   - {r: 1, g: 0.909804, b: 0.27450982, a: 1}
@@ -753,12 +753,12 @@ MonoBehaviour:
   virtualWorldVisible: 0
   trackingSpaceVisible: 1
   bufferVisible: 0
-  if3dObstacle: 0
-  trackingSpaceChoice: 0
-  obstacleType: 1
+  if3dObstacle: 1
+  trackingSpaceChoice: 7
+  obstacleType: 0
   obstacleHeight: 1
   trackingSpaceFilePath: 
-  squareWidth: 10
+  squareWidth: 20
   obstacleColor: {r: 0.4352941, g: 0.2426616, b: 0.0039215665, a: 1}
   bufferColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0.2509804}
   trackingSpacePoints: []
@@ -776,9 +776,9 @@ MonoBehaviour:
   exportImage: 0
   exportVideo: 0
   statisticsLogger: {fileID: 0}
-  passiveHaptics: 1
+  passiveHaptics: 0
   physicalTargetTransforms:
-  - position: {x: 10, y: 0}
+  - position: {x: 0, y: 0}
     forward: {x: 0, y: 1}
   - position: {x: 1, y: 0}
     forward: {x: 1, y: 1}
@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headTransform: {fileID: 1387029340}
-  redirectorChoice: 8
+  redirectorChoice: 1
   resetterChoice: 1
   globalConfiguration: {fileID: 0}
   body: {fileID: 226266040}
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda272f4e55a1804fa723a0d2b92948e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useAutoAdjust: 0
+  useAutoAdjust: 1
 --- !u!108 &232629216
 Light:
   m_ObjectHideFlags: 0

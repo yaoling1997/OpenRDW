@@ -13,7 +13,13 @@ public class AvatarAnimatorController : MonoBehaviour
     void Start()
     {
         globalConfiguration = GetComponentInParent<GlobalConfiguration>();
-        redirectionManager = globalConfiguration.redirectedAvatars[avatarId].GetComponent<RedirectionManager>();
+        try
+        {
+            redirectionManager = globalConfiguration.redirectedAvatars[avatarId].GetComponent<RedirectionManager>();
+        }
+        catch {
+
+        }        
     }
 
     // Update is called once per frame

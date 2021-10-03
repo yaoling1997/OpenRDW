@@ -1,0 +1,16 @@
+trackingSpaceChoice = Square
+squareWidth = 10
+newUser
+redirector = DynamicAPF
+resetter = APF
+pathseedChoice = 90turn
+newUser
+end
+
+trackingSpaceChoice = Square
+squareWidth = 20
+newUser
+redirector = DeepLearning
+resetter = twooneturn
+pathseedChoice = RandomTurn
+end

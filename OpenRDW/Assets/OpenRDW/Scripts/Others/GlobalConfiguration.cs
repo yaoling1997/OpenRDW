@@ -606,8 +606,7 @@ public class GlobalConfiguration : MonoBehaviour
         if (networkingMode && !readyToStart)
             return;        
 
-        UpdateSimulatedTime();
-        CustomFunctionCalledInEveryStep();
+        UpdateSimulatedTime();        
         MakeOneStepMovement();
         MakeOneStepRedirection();        
 
@@ -676,7 +675,9 @@ public class GlobalConfiguration : MonoBehaviour
             statisticsLogger.BeginLogging();
         }
 
-        for (int i = 0; i < avatarIdSortedFromHighPriorityToLow.Count; i++) {
+        CustomFunctionCalledInEveryStep();
+
+        for (int i = 0; i < avatarIdSortedFromHighPriorityToLow.Count; i++) {            
             redirectedAvatars[avatarIdSortedFromHighPriorityToLow[i]].GetComponent<MovementManager>().MakeOneStepMovement();
         }
     }

@@ -1,0 +1,9 @@
+trackingSpaceChoice = Rectangle
+obstacleType = 0
+newUser
+redirector = MessingerAPF
+resetter = APF
+pathseedChoice = RealUserPath
+waypointsfilepath = E:\yaoling1997\user_virtual_positions.csv
+samplingintervalsfilepath = E:\yaoling1997\sampling_intervals.csv
+end

@@ -28,8 +28,8 @@ public class DynamicAPF_Redirector : APF_Redirector
     private const float V = 0.1f;//velocity larger than V: use curvature gain; otherwise use rotation gain
 
     private static readonly float c = 0.25f;
-    //private static readonly float a1 = 1f;
-    //private static readonly float a2 = 0.02f;
+    private static readonly float a1 = 1f;
+    private static readonly float a2 = 0.02f;
     private static readonly float b1 = 2f;
     private static readonly float b2 = 1f;
 
@@ -384,7 +384,8 @@ public class DynamicAPF_Redirector : APF_Redirector
         var t = GetPriorityForce(obstaclePolygons, trackingSpacePoints, userTransforms);
 
         //large number means large priority        
-        var dir = Utilities.FlattenedDir2D(redirectionManager.currDirReal);       
+        var dir = Utilities.FlattenedDir2D(redirectionManager.currDirReal);
+        redirectionManager.priority = -(a1 * t.magnitude + a2 * Vector2.Angle(t, dir));
     }
 
     //get total force needed by the priority according to the paper    

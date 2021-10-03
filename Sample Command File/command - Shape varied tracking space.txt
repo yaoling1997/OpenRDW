@@ -1,0 +1,21 @@
+trackingSpaceChoice = rectangle
+obstacletype = 0
+newUser
+redirector = s2c
+resetter = twooneturn
+pathseedChoice = RandomTurn
+newUser
+newUser
+newUser
+end
+
+trackingSpaceChoice = triangle
+obstacletype = 1
+newUser
+redirector = MessingerAPF
+resetter = APF
+pathseedChoice = StraightLine
+newUser
+newUser
+newUser
+end
