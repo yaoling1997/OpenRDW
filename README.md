@@ -4,7 +4,7 @@
 
 ### A Redirected Walking Library and Benchmark with Multi-User, Learning-based Functionalities and State-of-the-art Algorithms
 
-OpenRDW extends the original [Redirected Walking Toolkit](https://github.com/USC-ICT-MxR/RDWT) and implement more new features.
+OpenRDW extends the original [Redirected Walking Toolkit](https://github.com/USC-ICT-MxR/RDWT) and implements more new features.
 
 The OpenRDW library provides APIs to access the attributes of scenes, to customize the RDW controllers, to simulate and visualize the navigation process, to export multiple formats of the results, and to evaluate RDW techniques. It also supports the deployment of multi-user real walking, as well as reinforcement learning-based models exported from TensorFlow or PyTorch. 
 
