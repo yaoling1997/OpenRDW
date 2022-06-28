@@ -217,7 +217,7 @@ public class GlobalConfiguration : MonoBehaviour
     private GameObject planeForAllAvatar;//plane gameobject in overview mode
     private List<GameObject> bufferRepresentations;//for buffer visualization
 
-    private GameObject virtualWorld;//
+    public GameObject virtualWorld;// virtual objects for tracking prediction
 
     #endregion
 

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\OpenRDW",
+    "\\OpenRDW\\Assets",
+    "\\OpenRDW\\Assets\\OpenRDW",
+    "\\OpenRDW\\Assets\\OpenRDW\\Scripts",
+    "\\OpenRDW\\Assets\\OpenRDW\\Scripts\\Movement",
+    "\\OpenRDW\\Assets\\OpenRDW\\Scripts\\Others",
+    "\\OpenRDW\\Assets\\OpenRDW\\Scripts\\Redirection",
+    "\\OpenRDW\\Assets\\OpenRDW\\Scripts\\Redirection\\Redirectors"
+  ],
+  "SelectedNode": "\\OpenRDW\\Assets\\OpenRDW\\Scripts\\Others\\TrackingSpaceGenerator.cs",
+  "PreviewInSolutionExplorer": false
+}
