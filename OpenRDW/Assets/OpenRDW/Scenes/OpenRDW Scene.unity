@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headTransform: {fileID: 1387029340}
-  redirectorChoice: 7
+  redirectorChoice: 9
   resetterChoice: 1
   globalConfiguration: {fileID: 0}
   body: {fileID: 226266040}
