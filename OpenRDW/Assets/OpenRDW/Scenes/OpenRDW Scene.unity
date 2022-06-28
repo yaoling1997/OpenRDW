@@ -256,10 +256,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226061064}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &222873132
@@ -454,6 +454,8 @@ GameObject:
   - component: {fileID: 232108112}
   - component: {fileID: 232045316}
   - component: {fileID: 232048510}
+  - component: {fileID: 226041974}
+  - component: {fileID: 226041973}
   m_Layer: 0
   m_Name: Redirected Avatar
   m_TagString: Untagged
@@ -461,6 +463,53 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!23 &226041973
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226041972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &226041974
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226041972}
+  m_Mesh: {fileID: 0}
 --- !u!1 &226045700
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +643,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226094006}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d6aff730ef5bec4293a647e23421a54, type: 3}
   m_Name: 
@@ -678,7 +727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &226125668
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +771,7 @@ MonoBehaviour:
   CURVATURE_RADIUS: 7.5
   RESET_TRIGGER_BUFFER: 0.5
   simulatedTime: 0
-  targetFPS: 50
+  targetFPS: 20
   trialsForRepeating: 1
   experimentIterator: 0
   experimentSetupsListIterator: 0
@@ -750,33 +799,34 @@ MonoBehaviour:
   rotationSpeed: 90
   currentShownAvatarId: 0
   avatarIdSortedFromHighPriorityToLow: 
-  virtualWorldVisible: 0
+  virtualWorldVisible: 1
   trackingSpaceVisible: 1
-  bufferVisible: 0
+  bufferVisible: 1
   if3dObstacle: 1
-  trackingSpaceChoice: 7
-  obstacleType: 0
+  trackingSpaceChoice: 0
+  obstacleType: 1
   obstacleHeight: 1
   trackingSpaceFilePath: 
-  squareWidth: 20
+  squareWidth: 5
   obstacleColor: {r: 0.4352941, g: 0.2426616, b: 0.0039215665, a: 1}
   bufferColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0.2509804}
   trackingSpacePoints: []
   transparentMat: {fileID: 2100000, guid: 8d1937c181e4c354ab48d4515104387b, type: 2}
   trackingSpacePlaneMat: {fileID: 2100000, guid: aa939d28fa98db7449915dc7becba95d,
     type: 2}
+  virtualWorld: {fileID: 0}
   firstWayPointIsStartPoint: 1
   alignToInitialForward: 1
   drawRealTrail: 1
   drawVirtualTrail: 1
   distanceToWaypointThreshold: 0.05
-  trailVisualTime: 3
+  trailVisualTime: -1
   realTrailColor: {r: 1, g: 0, b: 0, a: 0}
   virtualTrailColor: {r: 0, g: 0, b: 1, a: 0}
-  exportImage: 0
-  exportVideo: 1
+  exportImage: 1
+  exportVideo: 0
   statisticsLogger: {fileID: 0}
-  passiveHaptics: 0
+  passiveHaptics: 1
   physicalTargetTransforms:
   - position: {x: 0, y: 0}
     forward: {x: 0, y: 1}
@@ -1090,8 +1140,9 @@ MonoBehaviour:
   avatarId: 0
   generalManager: {fileID: 0}
   redirectionManager: {fileID: 0}
-  waypointsFilePath: 
-  samplingIntervalsFilePath: 
+  waypointsFilePath: E:\Project\py\OpenRDW\Real User Walking Paths\Props Searching\user0\0\user_virtual_positions.csv
+  samplingIntervalsFilePath: E:\Project\py\OpenRDW\Real User Walking Paths\Props
+    Searching\user0\0\sampling_intervals.csv
   waypoints: []
   samplingIntervals: []
   pathSeedChoice: 2
@@ -1179,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headTransform: {fileID: 1387029340}
-  redirectorChoice: 1
+  redirectorChoice: 9
   resetterChoice: 1
   globalConfiguration: {fileID: 0}
   body: {fileID: 226266040}
@@ -2119,7 +2170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poseAction:
     actionPath: /actions/default/in/Pose
-    needsReinit: 0
+    needsReinit: 1
   inputSource: 1
   origin: {fileID: 0}
   onTransformUpdated:
@@ -2571,7 +2622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poseAction:
     actionPath: /actions/default/in/Pose
-    needsReinit: 0
+    needsReinit: 1
   inputSource: 2
   origin: {fileID: 0}
   onTransformUpdated:

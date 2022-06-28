@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class RedirectionManager : MonoBehaviour {
     public static readonly float MaxSamePosTime = 50;//the max time(in seconds) the avatar can stand on the same position, exceeds this value will make data invalid (stuck in one place)
 
-    public enum RedirectorChoice { None, S2C, S2O, Zigzag, ThomasAPF, MessingerAPF, DynamicAPF, DeepLearning, PassiveHapticAPF };
+    public enum RedirectorChoice { None, S2C, S2O, Zigzag, ThomasAPF, MessingerAPF, DynamicAPF, DeepLearning, PassiveHapticAPF , VisPoly};
     public enum ResetterChoice { None, TwoOneTurn, APF };
 
 
@@ -145,6 +145,8 @@ public class RedirectionManager : MonoBehaviour {
                 return typeof(DeepLearning_Redirector);
             case RedirectorChoice.PassiveHapticAPF:
                 return typeof(PassiveHapticAPF_Redirector);
+            case RedirectorChoice.VisPoly:
+                return typeof(VisPoly_Redirector);
         }
         return typeof(NullRedirector);
     }
